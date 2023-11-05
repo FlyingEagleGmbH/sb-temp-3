@@ -1,0 +1,285 @@
+@import "variables";
+
+/* ---------------------- Global ---------------------- */
+
+* {
+    scroll-behavior: smooth;
+}
+
+body,
+html {
+    width: 100%;
+}
+
+.app-content {
+    width: 100%;
+    contain: paint;
+}
+
+.section-header {
+    padding: 1rem;
+    background: $primary;
+    color: $secondary;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .section-header { 
+      text-align: center;
+    }
+
+    :root {
+        font-size: 14px;
+    } 
+  }
+
+* {
+    word-break: break-word !important;
+    hyphens: auto !important;
+    text-overflow: ellipsis;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $secondary;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $fontprimary;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $accent;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h4 {
+    font-weight: 800;
+    color: $secondary;
+}
+
+/* ---------------------- Navigation ---------------------- */
+
+.navigation-bar {
+    height: 72px !important;
+    position: sticky !important;
+    z-index: 10000 !important;
+    background: $primary !important;
+}
+
+.nav-title {
+    color: $secondary;
+    letter-spacing: 2px;
+    width: 20vh;
+}
+
+.burger {
+    border-radius: 5px !important;
+    margin: 0;
+    color: $secondary !important;
+}
+
+.nav-back {
+    color: #fff;
+    padding-right: 25px !important;
+}
+
+.drawer {
+    background: $primary !important;
+}
+
+.v-navigation-drawer__content {
+    overflow-y: initial !important;
+    overflow-x: initial !important;
+}
+
+.drawer-items {
+    position: sticky !important;
+    top: 64px !important;
+    border-top: solid $secondary 1px !important;
+    color: $fontprimary;
+}
+
+/* ---------------------- Contact ---------------------- */
+
+#contact {
+    background-color: $primary;
+    padding: 3%;
+}
+
+.contact-form-card {
+    padding: 2rem !important;
+    background-color: $secondary !important;
+}
+
+.form-btn {
+    font-weight: normal;
+    width: 25%;
+    background: $primary !important;
+    color: $secondary !important;
+}
+
+.form-btns {
+    width: 100%;
+    display: flex;
+    column-gap: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .form-btn {
+        flex: 1;
+    }
+}
+
+/* ---------------------- Footer ---------------------- */
+
+.v-footer {
+    padding: 0 !important;
+    background: #000 !important;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    flex: 1;
+    flex-wrap: wrap;
+
+    &-btn {
+        margin: 10px !important;
+        color: $secondary!important;
+    }
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    row-gap: 2rem;
+    column-gap: 3rem;
+
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+        padding: 30px;
+    }
+}
+
+.footer-container-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    row-gap: 1rem;
+    text-align: left;
+    color: $secondary;
+
+    @media screen and (max-width: 1000px) {
+        text-align: center;
+
+        h3 {
+            width: 100%;
+        }
+    }
+}
+
+.copy {
+    padding: 1rem;
+    background: $primary;
+    width: 100%;
+    color: $secondary;
+}
+
+.footer-btn-inner {
+    padding: 5px;
+}
+
+/* ---------------------- Privacy, Impressum ---------------------- */
+
+.privacy-container {
+    padding: 0;
+}
+
+.privacy,
+.impressum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.privacy-card,
+.impressum-card {
+    padding: 5% !important;
+    padding-top: 2% !important;
+    width: 100%;
+}
+
+.privacy h3,
+.impressum h3 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.privacy a,
+.privacy p,
+.impressum a,
+.impressum p {
+    color: $fontprimary;
+    font-size: 16px;
+}
+
+.privacy ul,
+.impressum ul {
+    list-style-position: inside;
+}
+
+/* ---------------------- Standorte ---------------------- */
+
+.backlink-container {
+    padding: 0 !important;
+    min-height: 100vh;
+}
+
+.backlink-card {
+    width: 75%;
+    margin: 5%;
+}
+
+.backlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.backlink-list {
+    text-align: center;
+}
+
+.backlink-list p {
+    font-size: 18px;
+}
+
+.backlink-list a {
+    color: $fontprimary;
+}
