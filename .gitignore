@@ -16,3 +16,6 @@ logs
 .DS_Store
 .fleet
 .idea
+
+# Local Netlify folder
+.netlify
