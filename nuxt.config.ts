@@ -6,7 +6,7 @@ export default defineNuxtConfig({
       meta: [
         // { name: 'description', content: `` },
         // { name: 'g-site-verification', content: process.env.GSITEVERIFICATION },
-        { name: 'keywords', content: "" }
+        { name: 'keywords', content: "schädlingsbekämpfung, kammerjäger, wespenbekämpfer, bettwanzenbekämpfung, kammerjäger mäuse" }
       ]
     }
   },

@@ -4,7 +4,7 @@
             <div class="content">
                 <h1>{{ runtimeconfig.public.TITLE }}</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                Ihr Partner, wenn es um professionelle Bekämpfung von Schädlingen geht.
                 </p>
                 <ul class="feature-list desktop">
                     <li>
