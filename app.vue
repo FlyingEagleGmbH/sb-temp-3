@@ -27,6 +27,11 @@ export default {
                 ogDescription: `${runtimeconfig.public.TITLE} ${l} 24h Service für Hausverwaltungen✓ Kommunen✓ Gastronomie✓ Lebensmittelindustrie✓ Hotels✓ und vieles mehr.`,
                 ogImage: `${$url()}/images/portrait-professional-exterminator-holding-sprayer-with-chemicals-pest-control.jpg`,
             });
+            useHead({
+                link: [
+                    { rel: "canoncial", href: $url()}
+                ]
+            })
         })
 
     }
