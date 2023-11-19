@@ -4,7 +4,7 @@
         <v-card class="about-content">
             <v-img cover :src="'/images/people-disinfecting-biohazard-area.jpg'" class="fill-height" style="flex: 1; max-height: 300px" />
             <p class="about-text">
-                Kammerjäger Baden-Württemberg - Ihr verlässlicher Partner gegen Schädlinge!
+                Kammerjäger Franz - Ihr verlässlicher Partner gegen Schädlinge!
 <br>
 Wir sind Ihre Experten für Schädlingsbekämpfung in Baden-Württemberg. Mit unserer langjährigen Erfahrung und einem hochqualifizierten Team bieten wir effektive und umweltfreundliche Lösungen gegen Schädlinge. Schützen Sie Ihre Gesundheit und Ihr Zuhause - kontaktieren Sie uns noch heute für schnelle und professionelle Hilfe!
             </p>
