@@ -29,7 +29,7 @@ export default {
             });
             useHead({
                 link: [
-                    { rel: "canoncial", href: $url()}
+                    { rel: "canonical", href: $url()}
                 ]
             })
         })
